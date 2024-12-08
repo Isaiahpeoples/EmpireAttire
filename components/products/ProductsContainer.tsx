@@ -12,7 +12,7 @@ async function ProductsContainer({
 }: {
   layout: string
   search: string
-}): Promise<Awaited<React.ReactNode>> => {
+}) {
   const products = await fetchAllProducts({ search })
   const totalProducts = products.length
   const searchTerm = search ? `&search=${search}` : ''
