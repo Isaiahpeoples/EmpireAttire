@@ -9,9 +9,11 @@ import { LuShare2 } from 'react-icons/lu'
 
 import {
   TwitterShareButton,
+  FacebookShareButton,
   EmailShareButton,
   LinkedinShareButton,
-  TwitterIcon,
+  XIcon,
+  FacebookIcon,
   EmailIcon,
   LinkedinIcon,
 } from 'react-share'
@@ -34,8 +36,11 @@ function ShareButton({ productId, name }: { productId: string; name: string }) {
         className="flex items-center gap-x-2 justify-center w-full"
       >
         <TwitterShareButton url={shareLink} title={name}>
-          <TwitterIcon size={32} round />
+          <XIcon size={32} round />
         </TwitterShareButton>
+        <FacebookShareButton url={shareLink} title={name}>
+          <FacebookIcon size={32} round />
+        </FacebookShareButton>
         <LinkedinShareButton url={shareLink} title={name}>
           <LinkedinIcon size={32} round />
         </LinkedinShareButton>
