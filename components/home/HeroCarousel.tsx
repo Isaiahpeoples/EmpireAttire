@@ -7,9 +7,9 @@ import {
 } from '@/components/ui/carousel'
 import { Card, CardContent } from '@/components/ui/card'
 import Image from 'next/image'
-import hero1 from '@/public/images/hero1.jpg'
+import hero1 from '@/public/images/hero1.jpeg'
 import hero2 from '@/public/images/hero2.jpg'
-import hero3 from '@/public/images/hero3.jpg'
+import hero3 from '@/public/images/hero3.jpeg'
 import hero4 from '@/public/images/hero4.jpg'
 
 const carouselImages = [hero1, hero2, hero3, hero4]
