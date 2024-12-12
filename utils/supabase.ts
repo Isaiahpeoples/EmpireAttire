@@ -1,6 +1,6 @@
 import { createClient } from '@supabase/supabase-js'
 
-const bucket = 'your-bucket-name'
+const bucket = 'main-bucket'
 
 // Creates a single supabase client for interacting with the database
 export const supabase = createClient(
