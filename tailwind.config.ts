@@ -75,6 +75,9 @@ const config = {
     },
   },
   plugins: [require("tailwindcss-animate")],
+  server: {
+    host: true,
+  },
 } satisfies Config
 
 export default config
